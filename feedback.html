@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form </title>
+
+    <link rel="stylesheet" href="style.css">
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" href="css/demo.css" />
+
+</head>
+
+<body style="background-color:#41EDE7;">
+
+    <section>
+        <div class="rt-container">
+            <div class="col-rt-12">
+                <div class="Scriptcontent">
+                    <div class="feedback">
+                        <p>Dear Customer,<br>
+                            Thank you for choosing out hotel for Travel. We would like to know how we performed.
+                            Please spare some moments to give us your valuable feedback as it will help us in improving our service.</p>
+
+                        <h4>Please rate your service experience for the following parameters</h4>
+
+                        <form method="POST" action="https://script.google.com/macros/s/AKfycbxxETA-In6QwMFjqYm5Qjg3F7drhurgPdPvHjUMWyNp0CVn-EON1m0BIiBoTNuXpiTqHw/exec" >
+                            <label for="Customer ID">1. Customer ID:</label>     
+                            <input type="text" name="customer ID" placeholder="Customer ID" required="required"><br>
+                            <br>
+
+                            <label>2. Your overall experience with us ?</label><br>
+
+                            <span class="star-rating" name="Overall rating">
+                                <input type="radio" name="rating1" value="1"><i></i>
+                                <input type="radio" name="rating1" value="2"><i></i>
+                                <input type="radio" name="rating1" value="3"><i></i>
+                                <input type="radio" name="rating1" value="4"><i></i>
+                                <input type="radio" name="rating1" value="5"><i></i>
+                            </span>
+
+                            <div class="clear"></div>
+                            <hr class="survey-hr">
+                            <label>3. Your Hotel Experience rating</label><br>
+                            <span class="star-rating" name="Hotel Rating">
+                                <input type="radio" name="rating2" value="1"><i></i>
+                                <input type="radio" name="rating2" value="2"><i></i>
+                                <input type="radio" name="rating2" value="3"><i></i>
+                                <input type="radio" name="rating2" value="4"><i></i>
+                                <input type="radio" name="rating2" value="5"><i></i>
+                            </span>
+
+                            <div class="clear"></div>
+                            <hr class="survey-hr">
+                            <label>4. Your Restaurant Food Experience rating</label><br>
+                            <span class="star-rating" name="Restaurant rating">
+                                <input type="radio" name="rating3" value="1"><i></i>
+                                <input type="radio" name="rating3" value="2"><i></i>
+                                <input type="radio" name="rating3" value="3"><i></i>
+                                <input type="radio" name="rating3" value="4"><i></i>
+                                <input type="radio" name="rating3" value="5"><i></i>
+                            </span>
+
+                            <div class="clear"></div>
+                            <hr class="survey-hr">
+                            <label for="any other comments">5. Any Other suggestions:</label><br /><br />
+                            <textarea cols="75" name="commentText" rows="5" style="100%"></textarea><br>
+                            <br>
+                            <div class="clear"></div>
+                            <input style="background:#43a7d5;
+                                color:#fff;
+                                padding:12px;
+                                border:0" type="submit"
+                                value="Submit your review">&nbsp;
+                            
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
